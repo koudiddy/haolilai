@@ -1,0 +1,66 @@
+.big-listbox {
+  width: 996px;
+  height: 7980px;
+  overflow: hidden;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.big-listbox ul {
+  overflow: hidden;
+}
+
+.big-listbox ul .list-pro {
+  width: 325px;
+  margin-right: 10px;
+  float: left;
+  margin: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.big-listbox ul .list-pro .zstu {
+  height: 270px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.big-listbox ul .list-pro .zstu a {
+  color: #626262;
+  outline: none;
+}
+
+.big-listbox ul .list-pro .xq {
+  height: 52px;
+  width: 325px;
+  display: inline-block;
+  background: #87d0e3;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.big-listbox ul .list-pro .xq a {
+  color: #fff;
+  display: block;
+  height: 55px;
+}
+
+.big-listbox ul .list-pro .xq a p {
+  width: 100%;
+  height: 28px;
+  padding: 0px 0px 0px 15px;
+  line-height: 35px;
+}
+
+.big-listbox ul .list-pro .xq a b {
+  padding-right: 20px;
+  vertical-align: middle;
+  color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  width: 80px;
+  float: right;
+  height: 20px;
+  font-size: 13px;
+  text-align: right;
+  font-weight: bold;
+}

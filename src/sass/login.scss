@@ -1,0 +1,103 @@
+.login_bt{
+    margin: 10px auto;
+    text-align: center;
+    height: 30px;
+    width: 996px;
+    font-size: 16px;
+    line-height: 30px;
+}
+form{
+    width: 996px;
+    margin: 20px auto;
+    padding: 45px 0 55px;
+    overflow: hidden;
+    dl{
+        width: 310px;
+        margin: 0 auto;
+        background: #ededed;
+        height: 40px;
+        margin-bottom: 10px;
+        line-height: 40px;
+        dt{
+            float: left;
+            border-right: 5px solid #fff;
+            height: 40px;
+            width: 70px;
+            line-height: 40px;
+            text-align: center;
+            color: rgb(98, 98, 98);
+            font-size: 14px;
+        }
+        dd{
+            position: relative;
+            line-height: 40px;
+            input{
+                border: none;
+                width: 208px;
+                float: left;
+                display: inline-block;
+                background: none;
+                height: 38px;
+                line-height: 38px;
+                padding-left: 10px;
+                font-size: 14px;
+                color: #626262;
+                outline: none;
+            }
+            .prompt{
+                display: none;
+                left: 350px;
+                position: absolute;
+                width: 250px;
+                height: 32px;
+                line-height: 32px;
+                top: 0px;
+                padding-left: 40px;
+                color: red;
+                font-size: 14px;
+                background: #EDEDED url(../img/bg-jiantou.png) no-repeat left;
+            }
+        }
+    }
+    .log-pwd input{
+        width: 140px;
+        
+    }
+    .log-pwd a{
+        float: left;
+        padding-left: 8px;
+        height: 36px;
+        line-height: 40px;
+        color: rgb(98,98,98);
+        font-size: 13px;
+    }
+    .log-pwd a:hover{
+        color: #87D0E3;
+        text-decoration: underline;
+    }
+    .log-sub{
+        width: 310px;
+        font-size: 16px;
+        margin: 0 auto;
+        height: 40px;
+        a{
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .log-btn{
+            width: 195px;
+            float: left;
+            background: #87D0E3;
+            color: white;
+            font-weight: bold;
+        }
+        .mf-reg{
+            width: 105px;
+            float: right;
+            background: #EDEDED;
+            color: rgb(98,98,98);
+        }
+    }
+}

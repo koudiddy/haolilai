@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+	</head>
+	<body>
+		<header></header>
+		<div class="login_bt" style="text-align:center; padding-left:0; width:996px; background:#fff;">
+			<span style="float:left; width:45%; display:inline-block; border-top:1px dashed #d5d5d5; margin-top:14px;"></span>
+			<span style="width:10%; display:inline-block; color:#909090; font-weight:bold;">用户登录</span>
+			<span style="float:right; width:45%; display:inline-block; border-top:1px dashed #d5d5d5; margin-top:14px;"></span>
+		</div>
+		
+		<form>	
+			<dl class="log-user">
+				<dt>用户名</dt>
+				<dd>
+					<input type="text" id="user" placeholder="手机|邮箱"/>
+					<div class="prompt">
+						<span>请您确认填写您的邮箱或手机号</span>
+					</div>
+				</dd>
+			</dl>
+			<dl class="log-pwd">
+				<dt>密&emsp;码</dt>
+				<dd>
+					<input type="password" id="password" placeholder="请输入6-20位字符"/>
+					<a href="http://www.holiland.com/misc.php?act=get_password">忘记密码？</a>
+					<div class="prompt">
+						<span>密码必须输入6-20位字符</span>
+					</div>
+				</dd>
+			</dl>
+			
+			<div class="log-sub">
+				<a href="javascript:;" class="log-btn">登录</a>
+				<a href="register.html" class="mf-reg">免费注册</a>
+			</div>
+			
+		</form>
+		<footer></footer>
+		<script src="../lib/requirejs/require.js" data-main="../js/login"></script>
+	</body>
+</html>

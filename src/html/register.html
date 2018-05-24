@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<header></header>
+		<div class="login_bt" style="text-align:center; padding-left:0; width:996px; background:#fff;">
+			<span style="float:left; width:45%; display:inline-block; border-top:1px dashed #d5d5d5; margin-top:14px;"></span>
+			<span style="width:10%; display:inline-block; color:#909090; font-weight:bold;">用户注册</span>
+			<span style="float:right; width:45%; display:inline-block; border-top:1px dashed #d5d5d5; margin-top:14px;"></span>
+		</div>
+		
+		<div class="heart">
+			<i></i>
+			注册赠送积分：100
+		</div>
+		
+		<form>	
+			<dl class="reg-numb">
+				<dt>手机号</dt>
+				<dd>
+					<input type="text" id="user" maxlength="11"/>
+					<div class="prompt">
+						<span>请输入注册手机号码</span>
+					</div>
+				</dd>
+			</dl>
+			<dl class="reg-pwd">
+				<dt>密&emsp;码</dt>
+				<dd>
+					<input type="password" id="password" maxlength="20"/>
+					<div class="prompt">
+						<span>密码必须输入6-20位字符</span>
+					</div>
+				</dd>
+			</dl>
+			<dl class="conf-mm">
+				<dd>密码强度：弱</dd>
+				<dd class="qd-box">
+					<span></span>
+				</dd>
+				<dd>强</dd>
+			</dl>
+			<dl class="reg-repwd">
+				<dt>确认密码</dt>
+				<dd>
+					<input type="password" id="rePassword"/>
+					<div class="prompt">
+						<span>请再次输入密码</span>
+					</div>
+				</dd>
+			</dl>
+			<!--服务条款-->
+			<div class="term">
+				<input type="checkbox" id="check"/>
+				<a href="http://www.holiland.com/regprotocol.jsp" target="_blank">我已阅读并接受“服务条款”</a>
+				<div class="prompt">
+					<span>请接受服务条款</span>
+				</div>
+			</div>
+			<a href="javascript:;" class="reg-sub">注册</a>
+		</form>
+		<footer></footer>
+		<script src="../lib/requirejs/require.js" data-main="../js/register"></script>
+	</body>
+</html>

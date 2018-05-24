@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/cart.css"/>
+	</head>
+	<body>
+		<header></header>
+		<div class="login_bt" style="text-align:center; padding-left:0; width:996px; background:#fff;margin: 0 auto;">
+			<span style="float:left; width:45%; display:inline-block; border-top:1px dashed #d5d5d5; margin-top:14px;"></span>
+			<span style="width:10%; display:inline-block; color:#909090; font-weight:bold;">购物车</span>
+			<span style="float:right; width:45%; display:inline-block; border-top:1px dashed #d5d5d5; margin-top:14px;"></span>
+		</div>
+		
+		<div class="gouwuche">
+			<table border="0" cellspacing="0" cellpadding="0" class="cart_tab">
+				<thead>
+					<tr>
+						<th><label><input type="checkbox" class="ck_all">全选</label></th>
+						<th class="sa">商品名称</th>
+						<th class="sb">商品图片</th>
+						<th class="sc">积分</th>
+						<th class="sd">单价</th>
+						<th class="se">购买数量</th>
+						<th class="sf">小计</th>
+						<th class="se">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+			<div class="continue">
+				<a href="detail.html">继续购物</a>
+			</div>
+			<div class="allmoney">
+				<span>总计：￥0.00</span>
+				<a class="nextstep" href="cofirm.html">
+					下一步
+				</a>
+			</div>
+		</div>
+		
+		<div class="more">
+			<h4>更多精彩</h4>
+			<div id="l-banner">
+				<ul>
+					<li><a href="#"><img src="/img/detail/l-banner (1).jpg"/></a></li>
+					<li><a href="#"><img src="/img/detail/l-banner (2).jpg"/></a></li>
+					<li><a href="#"><img src="/img/detail/l-banner (3).jpg"/></a></li>
+					<li><a href="#"><img src="/img/detail/l-banner (4).jpg"/></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<footer></footer>
+		
+		<script type="text/html" id="cart_template">
+		{{each products prod}}
+			<tr  data-id="{{prod.id}}">
+				<td><input type="checkbox" class="ck_prod"></td>
+				<td class="desc">{{prod.desc}}</td>
+				<td><img src="{{prod.img}}" class="img"></td>
+				<td class="score">{{prod.score}}</td>
+				<td class="price">{{prod.price}}</td>
+				<td><span class="minus">-</span><input type="text" value="{{prod.amount}}" size="2" class="amount"><span class="add">+</span></td>
+				<td class="sub">{{prod.price*prod.amount}}</td>
+				<td><a href="javascript:void(0);" class="del">删除</a></td>
+			</tr>
+		{{/each}}
+		</script>
+		
+		<script src="/lib/requirejs/require.js" data-main="/js/cart"></script>
+	</body>
+</html>

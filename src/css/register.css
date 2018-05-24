@@ -1,0 +1,176 @@
+.login_bt {
+  margin: 10px auto;
+  text-align: center;
+  height: 30px;
+  width: 996px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.heart {
+  height: 19px;
+  width: 906px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #87D0E3;
+  text-align: right;
+}
+
+.heart i {
+  display: inline-block;
+  width: 23px;
+  height: 16px;
+  background: url(../img/heart.jpg) no-repeat;
+  vertical-align: middle;
+}
+
+form {
+  width: 996px;
+  margin: 20px auto;
+  padding: 45px 0 55px;
+  overflow: hidden;
+}
+
+form dl {
+  width: 310px;
+  margin: 0 auto;
+  background: #ededed;
+  height: 40px;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+form dl dt {
+  float: left;
+  border-right: 5px solid #fff;
+  height: 40px;
+  width: 70px;
+  line-height: 40px;
+  text-align: center;
+  color: #626262;
+  font-size: 14px;
+}
+
+form dl dd {
+  position: relative;
+  line-height: 40px;
+}
+
+form dl dd input {
+  border: none;
+  width: 208px;
+  float: left;
+  display: inline-block;
+  background: none;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #626262;
+  outline: none;
+}
+
+form dl dd .prompt {
+  display: none;
+  left: 350px;
+  position: absolute;
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  top: 0px;
+  padding-left: 40px;
+  color: red;
+  font-size: 14px;
+  background: #EDEDED url(../img/bg-jiantou.png) no-repeat left;
+}
+
+form .conf-mm {
+  display: none;
+  overflow: hidden;
+  width: 335px;
+  height: 17px;
+  margin: 0 auto 10px;
+  padding-left: 105px;
+  position: relative;
+  background: none;
+}
+
+form .conf-mm dd {
+  float: left;
+  font-size: 13px;
+  height: 17px;
+  line-height: 17px;
+  color: #626262;
+}
+
+form .conf-mm .qd-box {
+  width: 100px;
+  border: 1px solid #87d0e3;
+  height: 11px;
+  margin: 3px 4px 0px;
+}
+
+form .conf-mm .qd-box span {
+  display: block;
+  float: left;
+  height: 9px;
+  overflow: hidden;
+  background: #87d0e3;
+}
+
+form .term {
+  width: 270px;
+  height: 17px;
+  padding-left: 40px;
+  margin: 10px auto;
+  position: relative;
+  font-size: 13px;
+  color: #626262;
+}
+
+form .term input {
+  height: 13px;
+  width: 13px;
+  vertical-align: middle;
+  margin: -2px 5px 0px 0px;
+}
+
+form .term a {
+  color: #626262;
+  text-decoration: none;
+  outline: none;
+}
+
+form .term a:hover {
+  color: #87d0e3;
+  text-decoration: underline;
+}
+
+form .term .prompt {
+  display: none;
+  left: 350px;
+  position: absolute;
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  top: 0px;
+  padding-left: 40px;
+  color: red;
+  font-size: 14px;
+  background: #EDEDED url(../img/bg-jiantou.png) no-repeat left;
+}
+
+form .reg-sub {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  background: #87d0e3;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,0 +1,205 @@
+#banner {
+  width: 996px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#banner #box {
+  width: 996px;
+  height: 450px;
+  position: relative;
+}
+
+#banner #box li {
+  width: 996px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#banner #dian {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 110px;
+  left: 450px;
+}
+
+#banner #dian i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  line-height: 30px;
+  margin: 1px;
+  border: 1px solid #626262;
+  cursor: pointer;
+}
+
+#banner #dian .imgOn {
+  background: #626262;
+}
+
+#banner #prev, #banner #next {
+  width: 37px;
+  height: 39px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 39px;
+  background: #b89b9c;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  opacity: .5;
+  cursor: pointer;
+}
+
+#banner #prev {
+  left: 20px;
+}
+
+#banner #next {
+  right: 20px;
+}
+
+.main {
+  width: 996px;
+  height: 980px;
+  margin: 10px auto;
+}
+
+.main .top {
+  width: 996px;
+  height: 270px;
+}
+
+.main .top .top1, .main .top .top2, .main .top .top3 {
+  width: 325px;
+  height: 270px;
+  float: left;
+  margin-left: 10px;
+}
+
+.main .top .top1 a, .main .top .top2 a, .main .top .top3 a {
+  outline: none;
+}
+
+.main .top .top1 .tctu, .main .top .top2 .tctu, .main .top .top3 .tctu {
+  width: 325px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.main .top .top1 .tctu .pic, .main .top .top2 .tctu .pic, .main .top .top3 .tctu .pic {
+  display: block;
+  width: 325px;
+  height: 220px;
+}
+
+.main .top .top1 {
+  margin: 0;
+}
+
+.main .top .pic:hover img {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+.main .top .descript {
+  width: 325px;
+  height: 50px;
+  background-color: #87d0e3;
+}
+
+.main .top .descript a {
+  display: block;
+  width: 310px;
+  height: 38px;
+  color: white;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.main .middle {
+  width: 996px;
+  height: 420px;
+  margin-top: 10px;
+}
+
+.main .middle .middle-left {
+  width: 240px;
+  height: 420px;
+  float: left;
+}
+
+.main .middle .middle-right {
+  width: 745px;
+  height: 420px;
+  float: left;
+  margin-left: 10px;
+}
+
+.main .bottom {
+  width: 996px;
+  height: 270px;
+  margin-top: 10px;
+}
+
+.main .bottom .bottom1, .main .bottom .bottom2, .main .bottom .bottom3 {
+  width: 325px;
+  height: 270px;
+  float: left;
+  margin-left: 10px;
+}
+
+.main .bottom .bottom1 a, .main .bottom .bottom2 a, .main .bottom .bottom3 a {
+  outline: none;
+}
+
+.main .bottom .bottom1 .tctu, .main .bottom .bottom2 .tctu, .main .bottom .bottom3 .tctu {
+  width: 325px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.main .bottom .bottom1 .tctu .pic, .main .bottom .bottom2 .tctu .pic, .main .bottom .bottom3 .tctu .pic {
+  display: block;
+  width: 325px;
+  height: 220px;
+}
+
+.main .bottom .bottom1 .tctu .pic img, .main .bottom .bottom2 .tctu .pic img, .main .bottom .bottom3 .tctu .pic img {
+  width: 325px;
+  height: 220px;
+}
+
+.main .bottom .bottom1 {
+  margin: 0;
+}
+
+.main .bottom .pic:hover img {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+.main .bottom .descript {
+  width: 325px;
+  height: 50px;
+  background-color: #87d0e3;
+}
+
+.main .bottom .descript a {
+  display: block;
+  width: 310px;
+  height: 38px;
+  color: white;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-top: 12px;
+}

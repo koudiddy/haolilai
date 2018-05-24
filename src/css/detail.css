@@ -1,0 +1,358 @@
+.pro-detail {
+  width: 996px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pro-detail .s-banner {
+  width: 485px;
+  height: 485px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.pro-detail .s-banner .mirror {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  display: none;
+  cursor: move;
+}
+
+.pro-detail .s-banner #banner-box {
+  width: 485px;
+  height: 485px;
+  position: relative;
+}
+
+.pro-detail .s-banner #banner-box li {
+  width: 485px;
+  height: 485px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.pro-detail .s-banner #banner-box li img {
+  width: 485px;
+  height: 485px;
+}
+
+.pro-detail .s-banner #dian {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 110px;
+  left: 220px;
+}
+
+.pro-detail .s-banner #dian i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  line-height: 30px;
+  margin: 1px;
+  border: 1px solid #626262;
+  cursor: pointer;
+}
+
+.pro-detail .s-banner #dian .imgOn {
+  background: #626262;
+}
+
+.pro-detail .s-banner #prev, .pro-detail .s-banner #next {
+  width: 23px;
+  height: 25px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 25px;
+  background: #ADADAD;
+  position: absolute;
+  bottom: 10px;
+  margin: auto;
+  color: white;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.pro-detail .s-banner #prev {
+  left: 20px;
+}
+
+.pro-detail .s-banner #next {
+  right: 20px;
+}
+
+.pro-detail .bigger {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  width: 485px;
+  height: 485px;
+  overflow: hidden;
+  display: none;
+  border: 1px solid #ccc;
+  z-index: 99;
+}
+
+.pro-detail .bigger img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pro-detail .pro-right {
+  width: 485px;
+  height: 487px;
+  float: right;
+  overflow: hidden;
+}
+
+.pro-detail .pro-right img {
+  width: 485px;
+  height: 240px;
+  vertical-align: top;
+  border: 0;
+}
+
+.pro-detail .pro-right .showprice {
+  float: right;
+  text-align: right;
+  margin-top: 35px;
+  color: #2093cc;
+  font-size: 20px;
+}
+
+.pro-detail .pro-right .desc {
+  float: left;
+  text-align: left;
+  height: 48px;
+  margin-top: 12px;
+  width: 300px;
+  color: #2093cc;
+}
+
+.pro-detail .pro-right .desc h2 {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  float: left;
+}
+
+.pro-detail .pro-right .desc p {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.pro-detail .pro-right .c-box {
+  width: 485px;
+  height: 186px;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.pro-detail .pro-right .c-box dl {
+  position: relative;
+  width: 237px;
+  height: 50px;
+  background: #87d0e3;
+  float: left;
+  color: #fff;
+  text-align: left;
+  padding-left: 20px;
+  margin: 12px 12px 0px 0px;
+  line-height: 50px;
+}
+
+.pro-detail .pro-right .c-box dl dt {
+  float: left;
+  width: 26px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.pro-detail .pro-right .c-box dl dd {
+  float: left;
+  width: 175px;
+  height: 38px;
+}
+
+.pro-detail .pro-right .c-box dl dd span {
+  cursor: pointer;
+  height: 25px;
+  width: 158px;
+  background: #fff;
+  color: #4fa9d7;
+  padding-bottom: 0px;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 9px;
+  margin: 13px 0px 0px 5px;
+  display: inline-block;
+  line-height: 25px;
+  padding-right: 3px;
+}
+
+.pro-detail .pro-right .c-box dl dd span i {
+  position: absolute;
+  height: 22px;
+  width: 12px;
+  right: 20px;
+  top: 15px;
+  background: url(../img/bj_1.png) no-repeat -38px 0px;
+}
+
+.pro-detail .pro-right .c-box dl dd .h-size {
+  display: none;
+  height: 75px;
+  cursor: pointer;
+  width: 170px;
+  background: #f6f6f6;
+  position: absolute;
+  text-align: left;
+  left: 51px;
+  top: 38px;
+  z-index: 3;
+  overflow-y: scroll;
+}
+
+.pro-detail .pro-right .c-box dl dd .h-size p {
+  font-size: 12px;
+  color: #4FA9D7;
+  padding: 0px 3px 0px 9px;
+  line-height: 24px;
+}
+
+.pro-detail .pro-right .c-box dl dd .h-size p label {
+  margin-right: 10px;
+}
+
+.pro-detail .pro-right .c-box dl dd .h-size p:hover {
+  background: #4FA9D7;
+  color: white;
+}
+
+.pro-detail .pro-right .c-box dl dd .c-size {
+  display: none;
+  height: 75px;
+  cursor: pointer;
+  width: 170px;
+  background: #f6f6f6;
+  position: absolute;
+  text-align: left;
+  left: 51px;
+  top: 38px;
+  z-index: 3;
+  overflow-y: scroll;
+}
+
+.pro-detail .pro-right .c-box dl dd .c-size p {
+  font-size: 12px;
+  color: #4FA9D7;
+  padding: 0px 3px 0px 9px;
+  line-height: 24px;
+}
+
+.pro-detail .pro-right .c-box dl dd .c-size p:hover {
+  background: #4FA9D7;
+  color: white;
+}
+
+.pro-detail .pro-right .c-box .amount dd {
+  height: 100%;
+}
+
+.pro-detail .pro-right .c-box .amount dd .shuzi {
+  width: 89px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.pro-detail .pro-right .c-box .amount dd .shuzi button {
+  width: 27px;
+  height: 27px;
+  border: 1px solid white;
+  background: #87D0E3;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.pro-detail .pro-right .c-box .amount dd .shuzi input {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  color: #87D0E3;
+  padding: 0;
+  text-align: center;
+  outline: none;
+}
+
+.pro-detail .pro-right .c-box .collect, .pro-detail .pro-right .c-box .addCart, .pro-detail .pro-right .c-box .buy {
+  background: #87D0E3;
+  cursor: pointer;
+  width: 236px;
+  height: 50px;
+  float: left;
+  color: white;
+  margin: 12px 0 0 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.pro-detail .pro-right .c-box .buy {
+  background: #FFFF00;
+  color: #626262;
+}
+
+.pic1, .pic2, .pic3 {
+  width: 996px;
+  margin: 0 auto;
+}
+
+.pic1 img, .pic2 img, .pic3 img {
+  width: 996px;
+}
+
+.more {
+  width: 996px;
+  margin: 10px auto;
+  height: 349px;
+}
+
+.more h4 {
+  font-size: 13px;
+  color: #626262;
+}
+
+.more #l-banner {
+  width: 996px;
+  height: 332px;
+  position: relative;
+  overflow: hidden;
+}
+
+.more #l-banner ul {
+  position: absolute;
+  width: 3015px;
+  height: 332px;
+}
+
+.more #l-banner ul li {
+  margin: 10px 10px 0 0;
+  float: left;
+}
